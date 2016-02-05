@@ -1,3 +1,15 @@
-name: 'Práctica Funciones Partidas'
+---
+name: Práctica Guardas y Pattern Matching
 locale: es
+type: practice
+beta: false
 language: haskell
+id_format: '%05d'
+order:
+- 401
+- 402
+- 403
+- 404
+- 405
+- 406
+- 407

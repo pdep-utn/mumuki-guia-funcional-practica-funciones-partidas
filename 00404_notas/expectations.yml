@@ -1,0 +1,12 @@
+---
+expectations:
+- binding: esNotaBochazo
+  inspection: HasBinding
+- binding: aprobo
+  inspection: HasBinding
+- binding: promociono
+  inspection: HasBinding
+- binding: esNotaBochazo
+  inspection: Not:HasGuards
+- binding: aprobo
+  inspection: HasUsage:esNotaBochazo

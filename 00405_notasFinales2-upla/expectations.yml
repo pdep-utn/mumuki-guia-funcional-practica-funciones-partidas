@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: notasFinales
+  inspection: HasBinding
+- binding: recuperoDeGusto
+  inspection: HasBinding
