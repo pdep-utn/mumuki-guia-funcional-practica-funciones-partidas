@@ -6,7 +6,7 @@ A partir de esto:
 
 * Definir la función **esNotaBochazo**, recibe un número y dice si no llega a 4. Hacerlo sin usar guardas.
 * Definir la función **aprobo**, recibe un par e indica si una persona que se sacó esas notas aprueba. Usar **esNotaBochazo**.
-* Definir la función **promociono**, que indica si promocionó, para eso tiene las dos notas tienen que sumar al menos 14 y además haberse sacado 6 en cada parcial.
+* Definir la función **promociono**, que indica si promocionó, para eso tiene las dos notas tienen que sumar al menos 14 y además haberse sacado al menos 6 en cada parcial.
 
 Ejemplo:
 
