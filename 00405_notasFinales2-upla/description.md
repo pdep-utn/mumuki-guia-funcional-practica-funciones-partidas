@@ -21,3 +21,5 @@ Considerar que:
 También definir la función `recuperoDeGusto` que dado el par de pares que representa a un alumno, nos dice si el alumno, pudiendo promocionar con los parciales (o sea sin recup.), igual rindió al menos un recuperatorio.
 
 **Nota**: Resolverlo sin descomponer las tuplas mediante pattern matching; utilizar `fst` y `snd` en su lugar.
+
+**Nota2**: Asumir que ya existe una función `promociono` que dada una tupla de notas nos indica si promocionó. **Usarla sin definirla**
