@@ -20,5 +20,8 @@ describe "notas" $ do
     it "promociono (6,6) == No promociono" $ do
       promociono (6,6) `shouldBe` False
       
-    it "promociono (5,10) == No promociono" $ do
+    it "promociono (5,10) == No promociono por tener una nota menor a 6" $ do
       promociono (5,10) `shouldBe` False
+
+    it "promociono (10,5) == No promociono por tener una nota menor a 6" $ do
+      promociono (10,5) `shouldBe` False
