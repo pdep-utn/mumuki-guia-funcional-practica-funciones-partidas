@@ -2,7 +2,5 @@
 expectations:
 - binding: esMayorDeEdad
   inspection: HasBinding
-- binding: esMayorDeEdad
-  inspection: HasComposition
 - binding: "*"
   inspection: Except:HasRedundantParameter
