@@ -4,3 +4,5 @@ expectations:
   inspection: HasBinding
 - binding: esMayorDeEdad
   inspection: HasComposition
+- binding: "*"
+  inspection: Except:HasRedundantParameter
