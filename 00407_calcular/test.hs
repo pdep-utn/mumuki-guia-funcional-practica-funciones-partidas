@@ -1,6 +1,6 @@
-describe "calcular" $ do
+describe "calcular" $ do 
   it "calcular (7,8) == (7,9)" $ do
-    calcular (7,8) `shouldBe` (7,9)
+    calcular (7,8) `shouldBe` (7,9) 
 	
   it "calcular (2,3) == (4,4)" $ do
     calcular (2,3) `shouldBe` (4,4)
