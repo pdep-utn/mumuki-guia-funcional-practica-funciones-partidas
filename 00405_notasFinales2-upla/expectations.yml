@@ -1,6 +1,8 @@
 ---
 expectations:
-- binding: notasFinales
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: notasFinales
   inspection: HasBinding
-- binding: recuperoDeGusto
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: recuperoDeGusto
   inspection: HasBinding
